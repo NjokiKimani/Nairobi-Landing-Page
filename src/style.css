@@ -31,6 +31,7 @@ h4 {
   position: relative;
   top: -60px;
   font-weight: 400;
+  margin-left: 30px;
 }
 header button {
   border-radius: 5px;
@@ -38,15 +39,18 @@ header button {
   padding: 10px;
   background-color: #eca537;
   color: white;
-  margin-right: 50px;
   text-decoration: underline;
+      margin-left: 30px;
+
 }
 header button:hover{
     color: #ECA537;
     background: white;
 }
 @media (max-width:800px){
-h1{
-    color: green;
+h4{
+margin-left:10px ;}
+header button{
+  margin-left: 16px;
 }
 }
