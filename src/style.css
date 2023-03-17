@@ -1,0 +1,52 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  max-width: 1200px;
+  height: auto;
+  width: 80%;
+  margin: 60px auto;
+}
+header {
+  background-image: url("../img/nairobi.jpg");
+  opacity: 0.9;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  text-align: center;
+}
+h1 {
+  font-size: 60px;
+  position: relative;
+  top: -50px;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+
+h4 {
+  font-style: italic;
+  margin-bottom: 50px;
+  position: relative;
+  top: -60px;
+  font-weight: 400;
+}
+header button {
+  border-radius: 5px;
+  border: 0.5px solid #684325;
+  padding: 10px;
+  background-color: #eca537;
+  color: white;
+  margin-right: 50px;
+  text-decoration: underline;
+}
+header button:hover{
+    color: #ECA537;
+    background: white;
+}
+@media (max-width:800px){
+h1{
+    color: green;
+}
+}
