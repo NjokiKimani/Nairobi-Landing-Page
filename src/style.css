@@ -8,7 +8,7 @@ body {
   margin: 60px auto;
 }
 header {
-  background-image: url("../img/nairobi.jpg");
+  background-image: url("../images/nairobi.jpg");
   opacity: 0.9;
   color: white;
   background-size: cover;
@@ -41,6 +41,7 @@ header button {
   color: white;
   text-decoration: underline;
   margin-left: 30px;
+    transition: 150ms all ease-in-out;
 }
 header button:hover {
   color: #eca537;
@@ -76,6 +77,48 @@ main .background {
   text-align: justify;
   font-size: 12px;
   color: white;
+}
+
+.recommendationSection{
+  padding: 5px 10px 20px 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+    background-color: #e0a06c;
+
+}
+.balloonSafari, .nairobiPark, .maasai{
+  padding-bottom: 20px;
+}
+h5{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.recommendationImages{
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+}
+.recommendationDescriptions{
+  text-align: justify;
+  font-size: 12px;
+  padding: 0 10px;
+  color: white;
+}
+.recommendationSection button{
+  border: 0.5px solid #e0a06c;
+  border-radius: 5px;
+  padding: 5px;
+    display: block;
+  margin: 0 auto;
+    background-color: #ac703e;
+  color: white;
+  transition: 150ms all ease-in-out;
+}
+.recommendationSection button:hover{
+  cursor: pointer;
 }
 .footerContainer {
   border: 1px solid #3d291e;
@@ -127,6 +170,11 @@ footer a:hover {
     margin: 0 auto;
     margin-bottom: 30px;
     width: 100%;
+  padding: 5px;
   }
+  .recommendationSection{
+    display: block;
+  }
+
 
 }
