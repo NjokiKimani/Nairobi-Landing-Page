@@ -32,7 +32,7 @@ h4 {
   position: relative;
   top: -60px;
   font-weight: 400;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 header button {
   border-radius: 5px;
@@ -69,13 +69,13 @@ main h3 {
   margin-bottom: 3px;
   opacity: 0.8;
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
   margin-top: 0;
 }
 
 
 main .background {
-  margin-top: 0;
+  margin-top: 20px;
   text-align: justify;
   font-size: 12px;
   color: white;
@@ -95,6 +95,7 @@ main .background {
 h5{
   text-align: center;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 .recommendationImages{
   width: 300px;
